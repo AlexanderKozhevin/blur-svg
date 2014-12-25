@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+
+}
+
+#hack{
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  clip-path: circle(100px at center);
+  -webkit-clip-path: circle(100px at center);
+}
+
+#hack2{
+  z-index: -1;
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  filter: blur(5px); 
+  -webkit-filter: blur(5px); 
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px); 
+  -ms-filter: blur(5px);
+}
